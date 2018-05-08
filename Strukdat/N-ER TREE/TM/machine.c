@@ -202,8 +202,10 @@ void printTreePostOrder(simpul *root){
 	if (root!=NULL)
 	{
 		simpul *node= root->child;
-		if (node != NULL){
-			if (node->sibling == NULL){//jika satu anak
+		if (node != NULL)
+		{
+			if (node->sibling == NULL)
+			{//jika satu anak
 				printTreePostOrder(node);
 			}else{//jika banyak anak
 				while(node->sibling != root->child){
@@ -217,7 +219,6 @@ void printTreePostOrder(simpul *root){
 		printf("%c ", root->info);
 	}
 }
-
 
 // void copyTree(simpul *root1, simpul **root2){
 // 	if (root1!=NULL)
