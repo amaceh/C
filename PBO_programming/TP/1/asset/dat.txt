@@ -1,0 +1,13 @@
+Samsung
+<2jt J1 (4,3, 4.4 KK, 512MB, 4/256, 1850mah, 5/2 mp)
+2-3,5jt J7 (5,5, 5.1 LP, 1.5GB, 16/256, 3000mah,13/5 mp)
+3,5-5jt A5 (5,2, 6.0 MM, 2GB, 16/64, 3000mah,13/5mp)
+>5jt S7 (5.1, 6.0 MM, 4GB, 64/256, 3000mah,12/5mp)
+
+ASUS
+<2jt Zenfone 5 (5, 4.4 KK, 2GB, 8/64, 2110,8/2mp)
+2-3,5jt Zenfone 2 laser (5,5, 5.0 LP, 2GB, 16/256, 3000mah,13/5mp)
+3,5-5jt Zenfone 2 ZE115ML (5,5, 5.0 LP, 4GB, 32/256, 3000mah,13/5mp)
+>5jt 3 deluxe (5.7, 6 MM, 6GB, 64/256, 3000mah,23/8mp)
+
+pic, layar, OS, RAM, Mem int-ext, Baterai, kamera depan belkang 

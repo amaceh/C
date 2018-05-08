@@ -1,0 +1,60 @@
+AlatTulis
+- kode
+- nama
+- golongan
+
+Pensil
+- kode
+- nama
+- jenis (mekanik atau biasa)
+- keterangan
+- harga
+
+KotakPensil
+- kode
+- nama
+- bahan
+- bentuk
+- keterangan
+- harga
+
+AlatTulis <-- Pensil 
+	
+	^
+	|
+
+KotakPensil
+
+(objeknya sama, attribut alatTulis bisa dipakai di pensil dan kotak pensil)
+
+=================
+Toko
+- kode
+- nama
+- lokasi
+
+PemilikToko
+- noKTP
+- nama
+- kodeToko
+
+meskipun sama-sama toko, namun objek sangat berbeda.
+===========
+
+Buku
+- kode
+- nama
+- keterangan
+- banyakHalaman
+- harga
+
+RekapitulasiPendapatan
+- noKTP
+- kodeToko
+- bulan
+- total
+- untung
+- modal
+
+class lainnya juga saling lepas karena objeknya sangat berbeda
+======================

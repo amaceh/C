@@ -1,0 +1,58 @@
+saya Achmad Abdul Rofiq tidak melakukan kecurangan
+seperti yang telah dispesifikasikan pada mata kuliah
+Pemrograman Berbasis Objek dalam mengerjakan Mid Test,
+jika saya melakukan kecurangan maka Allah adalah saksi
+saya, dan saya menerima hukuman-Nya. aamin.
+
+BookSeller
+- SellerCode
+- SellerName
+- SellerAddress
+
+BookStore
+- BookStoreCode
+- BookStoreName
+- BookStoreAddress
+- SellerCode
+
+BookStore dan BookSeller itu secara objek sama, 
+Bookstore termasuk juga Penjual Buku, 
+semua Attribut BookSeller bisa dipakai oleh BookStore.
+bookSeller bisa mengimplementasikan setiap methodnya.
+Maka relasi yang tepat untuk keduanya itu inheritance.
+
+BookSeller <- BookStore
+
+==========================
+
+BookGenreCategory
+- BookGenreCode
+- BookGenreName
+- BookGenreDescription
+
+Book
+- BookCode
+- BookTitle
+- BookGenreCode
+- BookStoreCode
+- PublisherCode
+
+Kedua Class ini tidak bisa di relasikan secara inheritance (dan juga kelas abstract) -> objek berbeda
+juga book genre tidak bisa dijadikan interface karena ada method yang ada pada 
+bookgenre yang tidak diperlukan/tidak bisa diimplementasikan pada buku
+===========================
+BookIndustryComponent
+- IndustryCode
+- IndustryName
+- IndustryDescription
+
+Publisher
+- PublisherCode
+- PublisherName
+- PublisherAddress
+
+Publisher termasuk dalam Industri buku
+BookIndustry itu sangat banyak jenisnya, sulit diimplementasikan, jadi lebih baik BookIndustry dijadikan interface saja
+
+=====================
+dan relasi dari kelas kelas lain tinggal saling memakasi saja.
